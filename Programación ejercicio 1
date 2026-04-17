@@ -2,7 +2,7 @@
 from scipy.optimize import linprog
 
 # 2. Función objetivo Max Z = 180x1 + 220x2
-# linprog SOLO minimiza → multiplicamos por -1
+# linprog SOLO minimiza entonces multiplicamos por -1
 
 c = [-180, -220]
 
